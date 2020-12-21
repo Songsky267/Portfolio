@@ -251,7 +251,7 @@
 #portfolio .conts {
   display: flex;
   align-items: flex-end;
-  margin: 20px 0; 
+  margin: 20px 0;
 }
 #portfolio .conts .cont {
   position: relative;
@@ -281,10 +281,10 @@
 #portfolio .conts .cont:hover .square .hidden {
   display: block;
 }
-#portfolio .conts .cont .square img {
+#portfolio .conts .cont .square img,
+#portfolio .conts .cont .square a {
   display: none;
 }
-
 #portfolio .conts .cont .circle {
   width: 200px;
   height: 200px;
@@ -381,7 +381,6 @@
 .pop-site .pop-cont .pop-preview img {
   width: 90%;
 }
-
 
 #footer {
   padding: 130px 0;
